@@ -66,7 +66,7 @@
                 </option>
                 <option>
                     <name>OGLastSavedByProductVersion</name>
-                    <state>8.22.2.15993</state>
+                    <state>8.20.2.14834</state>
                 </option>
                 <option>
                     <name>GeneralEnableMisra</name>
@@ -791,7 +791,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFile</name>
-                    <state>D:\Proj_Kinetis\iar\KSDK2_MKV58F24.icf</state>
+                    <state>$PROJ_DIR$\KSDK2_MKV58F24.icf</state>
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>

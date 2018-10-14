@@ -1,115 +1,110 @@
-"D:\Proj_Kinetis\Library\MKV58F24\drivers\fsl_pwm.c"
+"E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\Library\MKV58F24\drivers\fsl_pwm.c"
 -std=c11
 -ferror-limit=0
--fbracket-depth=512
 -I
-D:\Proj_Kinetis\iar/../app/
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\iar/../app/
 -I
-D:\Proj_Kinetis\iar/../app/inc/
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\iar/../app/inc/
 -I
-D:\Proj_Kinetis\iar/../app/src/
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\iar/../app/src/
 -I
-D:\Proj_Kinetis\iar/../board/
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\iar/../board/
 -I
-D:\Proj_Kinetis\iar/../board/inc/
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\iar/../board/inc/
 -I
-D:\Proj_Kinetis\iar/../board/src/
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\iar/../board/src/
 -I
-D:\Proj_Kinetis\iar/../drivers/inc/
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\iar/../drivers/inc/
 -I
-D:\Proj_Kinetis\iar/../drivers/src/
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\iar/../drivers/src/
 -I
-D:\Proj_Kinetis\iar/../Library/
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\iar/../Library/
 -I
-D:\Proj_Kinetis\iar/../Library/CMSIS/Include/
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\iar/../Library/CMSIS/Include/
 -I
-D:\Proj_Kinetis\iar/../Library/MKV58F24/
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\iar/../Library/MKV58F24/
 -I
-D:\Proj_Kinetis\iar/../Library/MKV58F24/drivers/
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\iar/../Library/MKV58F24/drivers/
 -I
-D:\Proj_Kinetis\iar/../Library/MKV58F24/startup/
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\iar/../Library/MKV58F24/startup/
 -I
-D:\Proj_Kinetis\iar/../Library/MKV58F24/utilities/
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\iar/../Library/MKV58F24/utilities/
 -I
-D:\Proj_Kinetis\iar/../middleware/dma_manager_2.1.0/
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\iar/../middleware/dma_manager_2.1.0/
 -I
-D:\Proj_Kinetis\iar/../middleware/sdmmc_2.1.2/inc/
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\iar/../middleware/sdmmc_2.1.2/inc/
 -I
-D:\Proj_Kinetis\iar/../middleware/sdmmc_2.1.2/src/
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\iar/../middleware/sdmmc_2.1.2/src/
 -I
-D:\Proj_Kinetis\iar/../middleware/fatfs_0.12b/src/
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\iar/../middleware/fatfs_0.12b/src/
 -I
-D:\Proj_Kinetis\iar/../middleware/fatfs_0.12b/src/fsl_sd_disk/
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\iar/../middleware/fatfs_0.12b/src/fsl_sd_disk/
 -I
-D:\Proj_Kinetis\iar/../middleware/fatfs_0.12b/src/fsl_mmc_disk/
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\iar/../middleware/fatfs_0.12b/src/fsl_mmc_disk/
 -I
-D:\Proj_Kinetis\iar/../middleware/Terminal_0.01a/inc/
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\iar/../middleware/Terminal_0.01a/inc/
 -I
-D:\Proj_Kinetis\iar/../middleware/Terminal_0.01a/src/
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\iar/../middleware/Terminal_0.01a/src/
 -I
-D:\Proj_Kinetis\iar/../../..
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\iar/../../..
 -I
-D:\Proj_Kinetis\iar/../
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\iar/../
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\CMSIS\Core\Include
+E:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\CMSIS\Include
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\CMSIS\DSP\Include
+E:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\inc
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\inc
+E:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\inc\c
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\inc\c
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\app
 -I
-D:\Proj_Kinetis\app
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\app\inc
 -I
-D:\Proj_Kinetis\app\inc
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\app\src
 -I
-D:\Proj_Kinetis\app\src
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\board
 -I
-D:\Proj_Kinetis\board
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\board\inc
 -I
-D:\Proj_Kinetis\board\inc
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\board\src
 -I
-D:\Proj_Kinetis\board\src
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\drivers\inc
 -I
-D:\Proj_Kinetis\drivers\inc
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\drivers\src
 -I
-D:\Proj_Kinetis\drivers\src
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\Library
 -I
-D:\Proj_Kinetis\Library
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\Library\CMSIS\Include
 -I
-D:\Proj_Kinetis\Library\CMSIS\Include
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\Library\MKV58F24
 -I
-D:\Proj_Kinetis\Library\MKV58F24
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\Library\MKV58F24\drivers
 -I
-D:\Proj_Kinetis\Library\MKV58F24\drivers
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\Library\MKV58F24\startup
 -I
-D:\Proj_Kinetis\Library\MKV58F24\startup
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\Library\MKV58F24\utilities
 -I
-D:\Proj_Kinetis\Library\MKV58F24\utilities
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\middleware\dma_manager_2.1.0
 -I
-D:\Proj_Kinetis\middleware\dma_manager_2.1.0
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\middleware\sdmmc_2.1.2\inc
 -I
-D:\Proj_Kinetis\middleware\sdmmc_2.1.2\inc
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\middleware\sdmmc_2.1.2\src
 -I
-D:\Proj_Kinetis\middleware\sdmmc_2.1.2\src
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\middleware\fatfs_0.12b\src
 -I
-D:\Proj_Kinetis\middleware\fatfs_0.12b\src
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\middleware\fatfs_0.12b\src\fsl_sd_disk
 -I
-D:\Proj_Kinetis\middleware\fatfs_0.12b\src\fsl_sd_disk
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\middleware\fatfs_0.12b\src\fsl_mmc_disk
 -I
-D:\Proj_Kinetis\middleware\fatfs_0.12b\src\fsl_mmc_disk
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\middleware\Terminal_0.01a\inc
 -I
-D:\Proj_Kinetis\middleware\Terminal_0.01a\inc
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project\middleware\Terminal_0.01a\src
 -I
-D:\Proj_Kinetis\middleware\Terminal_0.01a\src
+E:\Code
 -I
-D:
+E:\Code\AlexYzhov\KSDK2_KV58-IAR-project
 -I
-D:\Proj_Kinetis
--I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\CMSIS\Core\Include
--I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\CMSIS\DSP\Include
+E:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\CMSIS\Include
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
@@ -258,8 +253,8 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\CMSIS\DSP\Include
 -D__JMP_BUF_ELEMENT_TYPE__=unsigned long long int
 -D__JMP_BUF_NUM_ELEMENTS__=16
 -D__TID__=0xcf60
--D__VER__=8022002
--D__BUILD_NUMBER__=15995
+-D__VER__=8020002
+-D__BUILD_NUMBER__=14835
 -D__IAR_SYSTEMS_ICC__=9
 -D__LITTLE_ENDIAN__=1
 -D__BOOL_TYPE__=unsigned char
@@ -269,6 +264,8 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\CMSIS\DSP\Include
 -D__WCHAR_T_MAX__=0xffffffffU
 -D__DEF_PTR_MEM__=__data
 -D__DEF_PTR_SIZE__=4
+-D__CODE_MEMORY_LIST3__(_P1,_P2)=__CODE_MEM_HELPER3__(__code, 0, _P1, _P2)
+-D__DATA_MEMORY_LIST3__(_P1,_P2)=__DATA_MEM_HELPER3__(__data, 0, _P1, _P2)
 -D__DATA_MEM0__=__data
 -D__DATA_MEM0_POINTER_OK__=1
 -D__DATA_MEM0_UNIQUE_POINTER__=1
@@ -284,9 +281,15 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\CMSIS\DSP\Include
 -D__CODE_MEM0__=__code
 -D__CODE_MEM0_POINTER_OK__=1
 -D__CODE_MEM0_UNIQUE_POINTER__=1
+-D__CODE_PTR_MEMORY_LIST3__(_P1,_P2)=__CODE_PTR_MEM_HELPER3__(__code, 0, _P1, _P2)
+-D__DATA_PTR_MEMORY_LIST3__(_P1,_P2)=__DATA_PTR_MEM_HELPER3__(__data, 0, _P1, _P2)
+-D__VAR_MEMORY_LIST3__(_P1,_P2)=__VAR_MEM_HELPER3__(__data, 0, _P1, _P2)
 -D__HEAP_MEM0__=0
 -D__HEAP_DEFAULT_MEM__=0
+-D__HEAP_MEMORY_LIST3__(_P1,_P2)=__HEAP_MEM_HELPER3__(__data, 0, _P1, _P2)
 -D__MULTIPLE_HEAPS__=0
+-D__TOPM_DATA_MEMORY_LIST3__(_P1,_P2)=
+-D__TOPP_DATA_MEMORY_LIST3__(_P1,_P2)=__TOPP_DATA_MEM_HELPER3__(__data, 0, _P1, _P2)
 -D__DEF_HEAP_MEM__=__data
 -D__PRAGMA_PACK_ON__=1
 -D__MULTIPLE_INHERITANCE__=1
@@ -338,8 +341,8 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\CMSIS\DSP\Include
 -D__HAS_JOINED_TYPES__=1
 -D__HAS_LOCATED_DECLARATION__=1
 -D__HAS_LOCATED_WITH_INIT__=1
--D__IAR_COMPILERBASE__=655878
--D__IAR_COMPILERBASE_STR__=10.2.6.201
+-D__IAR_COMPILERBASE__=655875
+-D__IAR_COMPILERBASE_STR__=10.2.3.197
 -D__UNICODE_SOURCE_SUPPORTED__=1
 -D__STDC__=1
 -D__STDC_VERSION__=201112L
@@ -388,45 +391,38 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\CMSIS\DSP\Include
 -DSDK_CORE_ID_CORE0=1
 -DSDK_OS_BAREMETAL=1
 -DARM_MATH_CM7=1
--D_DLIB_CONFIG_FILE_HEADER_NAME="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.0\\arm\\INC\\c\\DLib_Config_Normal.h"
--D_DLIB_CONFIG_FILE_STRING="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.0\\arm\\INC\\c\\DLib_Config_Normal.h"
--D__VERSION__="IAR ANSI C/C++ Compiler V8.22.2.15995/W32 for ARM"
+-D_DLIB_CONFIG_FILE_HEADER_NAME="E:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.0\\arm\\INC\\c\\DLib_Config_Normal.h"
+-D_DLIB_CONFIG_FILE_STRING="E:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.0\\arm\\INC\\c\\DLib_Config_Normal.h"
+-D__VERSION__="IAR ANSI C/C++ Compiler V8.20.2.14835/W32 for ARM"
 -D__ICCARM_OLD_DEFINED_VAARGS__=1
 -D__VA_STACK_ALIGN__=8
 -D__CODE_MEMORY_LIST1__()=__CODE_MEM_HELPER1__(__code, 0 )
 -D__CODE_MEMORY_LIST2__(_P1)=__CODE_MEM_HELPER2__(__code, 0 ,  _P1 )
--D__CODE_MEMORY_LIST3__(_P1,_P2)=__CODE_MEM_HELPER3__(__code, 0 ,  _P1 ,  _P2 )
+-D__CODE_MEMORY_LIST3__(_P1, _P2)=__CODE_MEM_HELPER3__(__code, 0 ,  _P1 ,  _P2 )
 -D__DATA_MEMORY_LIST1__()=__DATA_MEM_HELPER1__(__data, 0 )
 -D__DATA_MEMORY_LIST2__(_P1)=__DATA_MEM_HELPER2__(__data, 0 ,  _P1 )
--D__DATA_MEMORY_LIST3__(_P1,_P2)=__DATA_MEM_HELPER3__(__data, 0 ,  _P1 ,  _P2 )
+-D__DATA_MEMORY_LIST3__(_P1, _P2)=__DATA_MEM_HELPER3__(__data, 0 ,  _P1 ,  _P2 )
 -D__CODE_PTR_MEMORY_LIST1__()=__CODE_PTR_MEM_HELPER1__(__code, 0 )
 -D__CODE_PTR_MEMORY_LIST2__(_P1)=__CODE_PTR_MEM_HELPER2__(__code, 0 ,  _P1 )
--D__CODE_PTR_MEMORY_LIST3__(_P1,_P2)=__CODE_PTR_MEM_HELPER3__(__code, 0 ,  _P1 ,  _P2 )
+-D__CODE_PTR_MEMORY_LIST3__(_P1, _P2)=__CODE_PTR_MEM_HELPER3__(__code, 0 ,  _P1 ,  _P2 )
 -D__DATA_PTR_MEMORY_LIST1__()=__DATA_PTR_MEM_HELPER1__(__data, 0 )
 -D__DATA_PTR_MEMORY_LIST2__(_P1)=__DATA_PTR_MEM_HELPER2__(__data, 0 ,  _P1 )
--D__DATA_PTR_MEMORY_LIST3__(_P1,_P2)=__DATA_PTR_MEM_HELPER3__(__data, 0 ,  _P1 ,  _P2 )
+-D__DATA_PTR_MEMORY_LIST3__(_P1, _P2)=__DATA_PTR_MEM_HELPER3__(__data, 0 ,  _P1 ,  _P2 )
 -D__VAR_MEMORY_LIST1__()=__VAR_MEM_HELPER1__(__data, 0 )
 -D__VAR_MEMORY_LIST2__(_P1)=__VAR_MEM_HELPER2__(__data, 0 ,  _P1 )
--D__VAR_MEMORY_LIST3__(_P1,_P2)=__VAR_MEM_HELPER3__(__data, 0 ,  _P1 ,  _P2 )
+-D__VAR_MEMORY_LIST3__(_P1, _P2)=__VAR_MEM_HELPER3__(__data, 0 ,  _P1 ,  _P2 )
 -D__VARD_MEMORY_LIST1__()=__VARD_MEM_HELPER1__(__data, 0, _ )
 -D__HEAP_MEMORY_LIST1__()=__HEAP_MEM_HELPER1__(__data, 0 )
 -D__HEAP_MEMORY_LIST2__(_P1)=__HEAP_MEM_HELPER2__(__data, 0 ,  _P1 )
--D__HEAP_MEMORY_LIST3__(_P1,_P2)=__HEAP_MEM_HELPER3__(__data, 0 ,  _P1 ,  _P2 )
+-D__HEAP_MEMORY_LIST3__(_P1, _P2)=__HEAP_MEM_HELPER3__(__data, 0 ,  _P1 ,  _P2 )
 -D__HVAR_MEMORY_LIST1__()=__HVAR_MEM_HELPER1__(__data, 0 )
 -D__HEAPD_MEMORY_LIST1__()=__HEAPD_MEM_HELPER1__(__data, 0, _ )
 -D__HEAPU_MEMORY_LIST1__()=__HEAPU_MEM_HELPER1__(__data, 0 )
 -D__TOPM_DATA_MEMORY_LIST1__()=
 -D__TOPM_DATA_MEMORY_LIST2__(_P1)=
--D__TOPM_DATA_MEMORY_LIST3__(_P1,_P2)=
+-D__TOPM_DATA_MEMORY_LIST3__(_P1, _P2)=
 -D__TOPP_DATA_MEMORY_LIST1__()=__TOPP_DATA_MEM_HELPER1__(__data, 0 )
 -D__TOPP_DATA_MEMORY_LIST2__(_P1)=__TOPP_DATA_MEM_HELPER2__(__data, 0 ,  _P1 )
--D__TOPP_DATA_MEMORY_LIST3__(_P1,_P2)=__TOPP_DATA_MEM_HELPER3__(__data, 0 ,  _P1 ,  _P2 )
+-D__TOPP_DATA_MEMORY_LIST3__(_P1, _P2)=__TOPP_DATA_MEM_HELPER3__(__data, 0 ,  _P1 ,  _P2 )
 -D__DATA_MEM0_SIZE_TYPE__=unsigned int
 -D__DATA_MEM0_INDEX_TYPE__=signed int
--D__iar_fp2bits32(x)=0
--D__iar_fp2bits64(x)=0
--D__iar_fpgethi64(x)=0
--D__iar_atomic_add_fetch(x,y,z)=0
--D__iar_atomic_sub_fetch(x,y,z)=0
--D__iar_atomic_load(x,y)=0ULL
--D__iar_atomic_compare_exchange_weak(a,b,c,d,e)=0
